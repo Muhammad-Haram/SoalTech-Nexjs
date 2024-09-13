@@ -101,7 +101,7 @@ const Navbar = () => {
               <buttons className="nav-btn">
                 <a href="/contact-us">Contact</a>
               </buttons>
-                            <img src={"/img/soul2.png"} className="isActive" alt="" />
+              <img src={"/img/soul2.png"} className="isActive" alt="" />
             </div>
           </div>
 

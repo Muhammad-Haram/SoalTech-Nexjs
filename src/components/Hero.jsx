@@ -4,7 +4,7 @@ function Hero() {
   return (
     <>
       <section className="bg-image">
-        <div className="bg-blackColor">
+        <div className="bg-black">
           {/* <?php get_template_part('includes/section','menu');?> */}
 
           {/* <!-- hero content  --> */}
