@@ -1,0 +1,49 @@
+import React from 'react'
+
+const AboutUsHero = () => {
+    return (
+        <>
+            <div className="bg-image-container" style={{ position: "relative" }}>
+                <div className="bg-gradient-container"></div>
+                <div className="width-container">
+                    <article className="wrapper wrapper--vertical">
+                        <div className="marquee marquee--vertical">
+                            <div className="marquee__group">
+                                <img src='/img/about-hero-1.png' alt="" />
+                                <img src='/img/about-hero-3.png' alt="" />
+                                <img src='/img/about-hero-5.png' alt="" />
+                            </div>
+
+                            <div aria-hidden="true" className="marquee__group">
+                                <img src='/img/about-hero-1.png' alt="" />
+                                <img src='/img/about-hero-3.png' alt="" />
+                                <img src='/img/about-hero-5.png' alt="" />
+                            </div>
+                        </div>
+                        <div className="marquee marquee--reverse marquee--vertical">
+                            <div className="marquee__group">
+                                <img src='/img/about-hero-2.png' alt="" />
+                                <img src='/img/about-hero-4.png' alt="" />
+                                <img src='/img/about-hero-6.png' alt="" />
+                            </div>
+
+                            <div aria-hidden="true" className="marquee__group">
+                                <img src='/img/about-hero-2.png' alt="" />
+                                <img src='/img/about-hero-4.png' alt="" />
+                                <img src='/img/about-hero-6.png' alt="" />
+                            </div>
+                        </div>
+                    </article>
+                    <div className="hero-content">
+                        <p className="hero-heading">Build a Winning Team: Assess. Interview. Develop.</p>
+                        <p className="hero-paragraph">
+                            Talent acquisition and management tools designed to improve your talent outcomes and with your prospects in mind.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </>
+    )
+}
+
+export default AboutUsHero
